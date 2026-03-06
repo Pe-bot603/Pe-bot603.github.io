@@ -1,16 +1,16 @@
 {
-    "scratchLink.headerText": "Scratch Link allows you to connect hardware to interact with your Scratch projects. Open new possibilities by combining your digital projects with the physical world.",
-    "scratchLink.headerTitle": "Scratch Link",
-    "scratchLink.linkLogo": "Scratch Link logo",
+    "scratchLink.headerText": "BolinhoMod Link allows you to connect hardware to interact with your BolinhoMod projects. Open new possibilities by combining your digital projects with the physical world.",
+    "scratchLink.headerTitle": "BolinhoMod Link",
+    "scratchLink.linkLogo": "BolinhoMod Link logo",
     "scratchLink.troubleshootingTitle": "Troubleshooting",
-    "scratchLink.checkOSVersionTitle": "Make sure your operating system is compatible with Scratch Link",
+    "scratchLink.checkOSVersionTitle": "Make sure your operating system is compatible with BolinhoMod Link",
     "scratchLink.checkOSVersionText": "The minimum operating system versions are listed at the top of this page. See instructions for checking your version of {winOSVersionLink} or {macOSVersionLink}.",
     "scratchLink.winOSVersionLinkText": "Windows",
     "scratchLink.macOSVersionLinkText": "Mac OS",
-    "scratchLink.closeScratchCopiesTitle": "Close other copies of Scratch",
-    "scratchLink.closeScratchCopiesText": "Only one copy of Scratch can connect with Scratch Link at a time. If you have Scratch open in other browser tabs, close it and try again.",
+    "scratchLink.closeScratchCopiesTitle": "Close other copies of BolinhoMod",
+    "scratchLink.closeScratchCopiesText": "Only one copy of BolinhoMod can connect with BolinhoMod Link at a time. If you have BolinhoMod open in other browser tabs, close it and try again.",
     "scratchLink.thingsToTry": "Things to Try",
-    "scratchLink.compatibleDevices": "Compatible with Scratch Link",
+    "scratchLink.compatibleDevices": "Compatible with BolinhoMod Link",
     "scratchLink.microbitTitle": "micro:bit",
     "scratchLink.microbitDescription": "micro:bit is a tiny circuit board designed to help kids learn to code and create with technology.",
     "scratchLink.ev3Title": "LEGO MINDSTORMS EV3",
@@ -20,5 +20,5 @@
     "scratchLink.boostTitle": "LEGO BOOST",
     "scratchLink.boostDescription": "The LEGO BOOST kit brings your LEGO creations to life with powerful motors, a color sensor and more.",
     "scratchLink.vernierTitle": "Vernier Force & Acceleration",
-    "scratchLink.vernierDescription": "The Vernier Go Direct Force & Acceleration sensor is a powerful scientific tool that unlocks new ways to connect the physical world to your Scratch projects."
+    "scratchLink.vernierDescription": "The Vernier Go Direct Force & Acceleration sensor is a powerful scientific tool that unlocks new ways to connect the physical world to your BolinhoMod projects."
 }
