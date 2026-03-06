@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BolinhoMod</title>
+    <style>
+      :root { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+      body { margin: 0; background: #0f172a; color: #e2e8f0; }
+      .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+      .hero { background: linear-gradient(130deg, #2563eb, #7c3aed); border-radius: 16px; padding: 2rem; margin-bottom: 1.5rem; }
+      h1 { margin: 0 0 .5rem; }
+      .subtitle { margin: 0; opacity: .9; }
+      .actions { margin-top: 1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+      button { border: 0; border-radius: 8px; padding: .6rem .9rem; font-weight: 700; cursor: pointer; }
+      .primary { background: #f8fafc; color: #0f172a; }
+      .secondary { background: rgba(255,255,255,.2); color: #fff; }
+      .card { background: #111827; border: 1px solid #334155; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; }
+      .post-list { display: grid; gap: 1rem; }
+      .post h2 { margin: 0 0 .5rem; font-size: 1.1rem; }
+      .meta { font-size: .875rem; color: #94a3b8; margin-bottom: .75rem; }
+      .empty { color: #94a3b8; }
+      form { display: grid; gap: .6rem; }
+      input, textarea { border-radius: 8px; border: 1px solid #334155; background: #0b1220; color: #e2e8f0; padding: .6rem; }
+      textarea { min-height: 92px; resize: vertical; }
+      .hint { font-size: .85rem; color: #94a3b8; margin: 0; }
+      @media (max-width: 640px) { .hero { padding: 1.2rem; } }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <h1>BolinhoMod</h1>
+        <p class="subtitle">Página inicial para GitHub Pages com posts em JSON + editor local.</p>
+        <div class="actions">
+          <button class="primary" id="btnReload">Recarregar posts</button>
+          <button class="secondary" id="btnSort">Ordenar por data</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Novo post (local)</h2>
+        <form id="postForm">
+          <input id="postTitle" name="title" placeholder="Título" required maxlength="80" />
+          <input id="postAuthor" name="author" placeholder="Autor" required maxlength="40" />
+          <textarea id="postContent" name="content" placeholder="Conteúdo" required maxlength="400"></textarea>
+          <button class="primary" type="submit">Publicar post local</button>
+          <p class="hint">Os posts criados aqui ficam salvos no navegador (localStorage).</p>
+        </form>
+      </section>
+
+      <section class="card">
+        <h2>Como aplicar (GitHub Pages)</h2>
+        <ol>
+          <li>Faça push deste branch para o GitHub.</li>
+          <li>Abra <strong>Settings → Pages</strong>.</li>
+          <li>Em <strong>Build and deployment</strong>, escolha <strong>Deploy from a branch</strong>.</li>
+          <li>Selecione <strong>branch: main/work</strong> e pasta <strong>/(root)</strong>.</li>
+          <li>Salve e aguarde a URL pública ser publicada.</li>
+        </ol>
+        <p class="hint">Dica: se abrir o arquivo direto no computador (file://), os posts padrão ainda aparecem por fallback local.</p>
+      </section>
+
+      <section>
+        <h2>Posts</h2>
+        <p class="hint" id="postsStatus"></p>
+        <div id="postList" class="post-list"></div>
+      </section>
+    </main>
+
+    <script id="defaultPostsData" type="application/json">
+      [
+        {
+          "id": 1,
+          "title": "Bem-vindo ao BolinhoMod",
+          "author": "Equipe BolinhoMod",
+          "date": "2026-03-01",
+          "content": "Este é o primeiro post do projeto. Agora você já pode publicar novidades usando apenas este arquivo JSON."
+        },
+        {
+          "id": 2,
+          "title": "Próximos passos",
+          "author": "Equipe BolinhoMod",
+          "date": "2026-03-02",
+          "content": "No próximo passo podemos integrar cadastro/login, comentários e uma API real para os posts."
+        }
+      ]
+    </script>
+
+    <script src="./posts.js" defer></script>
+  </body>
+</html>

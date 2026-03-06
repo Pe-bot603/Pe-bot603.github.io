@@ -63,7 +63,7 @@
     "studio.curatorsHeader": "Curators",
     "studio.inviteCuratorsHeader": "Invite Curators",
     "studio.inviteCurator": "Invite",
-    "studio.inviteCuratorPlaceholder": "Scratch Username",
+    "studio.inviteCuratorPlaceholder": "BolinhoMod Username",
     "studio.curatorInvitationAccepted": "Congratulations! You are now a curator of this studio.",
     "studio.curatorInvitation": "You’ve been invited to become a curator of this studio.",
     "studio.curatorAcceptInvite": "Accept Invite",
@@ -119,7 +119,7 @@
     "studio.comments.toggleOff": "Commenting off",
     "studio.comments.toggleOn": "Commenting on",
     "studio.comments.turnedOff": "Sorry, comment posting has been turned off for this studio.",
-    "studio.comments.turnedOffGlobally" : "Studio comments across Scratch are turned off, but don't worry, your comments are saved and will be back soon.",
+    "studio.comments.turnedOffGlobally" : "Studio comments across BolinhoMod are turned off, but don't worry, your comments are saved and will be back soon.",
 
     "studio.sharedFilter": "Shared",
     "studio.favoritedFilter": "Favorited",
@@ -134,16 +134,16 @@
     "studio.activityRemoveCurator": "{removerProfileLink} removed the curator {removedProfileLink}",
     "studio.activityBecomeOwner": "{promotedProfileLink} was promoted to manager by {promotorProfileLink}",
     "studio.activityBecomeHost": "{newHostProfileLink} was made the studio host by {actorProfileLink}",
-    "studio.activityBecomeHostAdminActor": "{newHostProfileLink} was made the studio host by a Scratch Team member",
+    "studio.activityBecomeHostAdminActor": "{newHostProfileLink} was made the studio host by a BolinhoMod Team member",
 
     "studio.lastUpdated": "Updated {lastUpdatedDate, date, medium}",
     "studio.followerCount": "{followerCount} followers",
 
     "studio.reportThisStudio": "Report this studio",
-    "studio.reportPleaseExplain": "Please select which part of the studio you find to be disrespectful or inappropriate, or otherwise breaks the Scratch Community Guidelines.",
+    "studio.reportPleaseExplain": "Please select which part of the studio you find to be disrespectful or inappropriate, or otherwise breaks the BolinhoMod Community Guidelines.",
     "studio.reportAreThereComments": "Are there inappropriate comments in the studio? Please report them by clicking the \"report\" button on the individual comments.",
     "studio.reportThanksForLettingUsKnow": "Thanks for letting us know!",
-    "studio.reportYourFeedback": "Your feedback will help us make Scratch better.",
+    "studio.reportYourFeedback": "Your feedback will help us make BolinhoMod better.",
 
     "studio.mutedCurators": "You will be able to invite curators and add managers again {inDuration}.",
     "studio.mutedProjects": "You will be able to add and remove projects again {inDuration}.",

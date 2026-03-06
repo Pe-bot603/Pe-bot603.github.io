@@ -1,9 +1,9 @@
 {
-    "wedoLegacy.intro": "The LEGO® Education WeDo 2.0 is an introductory invention kit you can use to build your own interactive machines. You can snap together Scratch programming blocks to interact with your LEGO WeDo creations and add animations on the screen.",
+    "wedoLegacy.intro": "The LEGO® Education WeDo 2.0 is an introductory invention kit you can use to build your own interactive machines. You can snap together BolinhoMod programming blocks to interact with your LEGO WeDo creations and add animations on the screen.",
     "wedoLegacy.requirement": "The LEGO WeDo 2.0 extension is available for Mac OSX and Windows 10+.",
     "wedoLegacy.getStarted": "Getting Started with LEGO WeDo 2.0",
     "wedoLegacy.installTitle": "1. Install Device Manager",
-    "wedoLegacy.installText": "The Device Manager lets you connect WeDo 2.0 to Scratch using Bluetooth",
+    "wedoLegacy.installText": "The Device Manager lets you connect WeDo 2.0 to BolinhoMod using Bluetooth",
     "wedoLegacy.downloadMac": "Download for macOS",
     "wedoLegacy.downloadWin": "Download for Windows 10+",
     "wedoLegacy.setupTitle": "2. Setup & Help",
@@ -18,5 +18,5 @@
     "wedoLegacy.starterDistance": "Distance Sensor",
     "wedoLegacy.starterTilt": "Tilt Sensor",
     "wedoLegacy.versionTitle": "Which version do you have?",
-    "wedoLegacy.versionText": "You can also use Scratch to program the original LEGO WeDo (LEGO WeDo 1.0)."
+    "wedoLegacy.versionText": "You can also use BolinhoMod to program the original LEGO WeDo (LEGO WeDo 1.0)."
 }

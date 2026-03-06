@@ -57,7 +57,7 @@
         "pattern": "^/conference/2017/?$",
         "routeAlias": "/conference(?!/20[1-2][0-9])",
         "view": "conference/2017/index/index",
-        "title": "Scratch Conference",
+        "title": "BolinhoMod Conference",
         "viewportWidth": "device-width"
     },
     {
@@ -79,7 +79,7 @@
         "pattern": "^/conference/2018/?$",
         "routeAlias": "/conference(?!/20[1-2][0-9])",
         "view": "conference/2018/index/index",
-        "title": "Scratch Conference",
+        "title": "BolinhoMod Conference",
         "viewportWidth": "device-width"
     },
     {
@@ -101,7 +101,7 @@
         "pattern": "^/conference/2019/?$",
         "routeAlias": "/conference(?!/20[1-2][0-9])",
         "view": "conference/2019/index/index",
-        "title": "Scratch Conferences",
+        "title": "BolinhoMod Conferences",
         "viewportWidth": "device-width"
     },
     {
@@ -115,7 +115,7 @@
         "pattern": "^/conference/2021/?$",
         "routeAlias": "/conference(?!/20[1-2][0-9])",
         "view": "conference/2021/index/index",
-        "title": "Scratch Conferences",
+        "title": "BolinhoMod Conferences",
         "viewportWidth": "device-width"
     },
     {
@@ -171,7 +171,7 @@
         "pattern": "^/download/?(\\?.*)?$",
         "routeAlias": "/download",
         "view": "download/download",
-        "title": "Scratch Offline Editor"
+        "title": "BolinhoMod Offline Editor"
     },
     {
         "name": "educator-landing",
@@ -206,7 +206,7 @@
         "pattern": "^/community_guidelines/?$",
         "routeAlias": "/community_guidelines/?$",
         "view": "guidelines/guidelines",
-        "title": "Scratch Community Guidelines"
+        "title": "BolinhoMod Community Guidelines"
     },
     {
         "name": "ideas",
@@ -225,14 +225,14 @@
         "pattern": "^/join/?$",
         "routeAlias": "/join/?$",
         "view": "join/join",
-        "title": "Join Scratch"
+        "title": "Join BolinhoMod"
     },
     {
         "name": "membership",
         "pattern": "^/membership/?$",
         "routeAlias": "/membership/?$",
         "view": "membership/membership",
-        "title": "Scratch Membership"
+        "title": "BolinhoMod Membership"
     },
     {
         "name": "messages",
@@ -246,7 +246,7 @@
         "pattern": "^/projects(/editor|(/\\d+(/editor|/fullscreen)?)?)?/?(\\?.*)?$",
         "routeAlias": "/projects/?$",
         "view": "preview/preview",
-        "title": "Scratch Project",
+        "title": "BolinhoMod Project",
         "dynamicMetaTags": true
     },
     {
@@ -254,7 +254,7 @@
         "pattern": "^/projects/\\d+/embed/?(\\?.*)?$",
         "routeAlias": "/projects/?$",
         "view": "preview/embed",
-        "title": "Scratch Project",
+        "title": "BolinhoMod Project",
         "dynamicMetaTags": true
     },
     {
@@ -282,7 +282,7 @@
         "pattern": "^/scratch_1.4/?$",
         "routeAlias": "/scratch_1.4",
         "view": "scratch_1.4/scratch_1.4",
-        "title": "Scratch 1.4"
+        "title": "BolinhoMod 1.4"
     },
     {
         "name": "become-a-scratcher",
@@ -296,14 +296,14 @@
         "pattern": "^/download/scratch2/?(\\?.*)?$",
         "routeAlias": "/download/scratch2",
         "view": "download/scratch2/download",
-        "title": "Scratch 2.0"
+        "title": "BolinhoMod 2.0"
     },
     {
         "name": "download-scratch-link",
         "pattern": "^/download/scratch-link/?(\\?.*)?$",
         "routeAlias": "/download/scratch-link",
         "view": "download/scratch-link/download",
-        "title": "Scratch Link Download"
+        "title": "BolinhoMod Link Download"
     },
     {
         "name": "download-scratch-link-redirect",
@@ -364,7 +364,7 @@
         "pattern": "^/studios/\\d+(/projects|/curators|/activity|/comments)?/?(\\?.*)?$",
         "routeAlias": "/studios/?$",
         "view": "studio/studio",
-        "title": "Scratch Studio",
+        "title": "BolinhoMod Studio",
         "dynamicMetaTags": true
     },
     {
@@ -386,7 +386,7 @@
         "pattern": "^/educators/waiting",
         "routeAlias": "/educators(?:/(faq|register|waiting))?/?(\\?.*)?$",
         "view": "teacherwaitingroom/teacherwaitingroom",
-        "title": "Thank you for requesting a Scratch Teacher Account"
+        "title": "Thank you for requesting a BolinhoMod Teacher Account"
     },
     {
         "name": "wedo2",
