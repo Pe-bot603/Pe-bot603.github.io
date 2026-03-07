@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BolinhoMod</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b1020;
+        --bg-soft: #121a33;
+        --card: #1a2446;
+        --text: #eef2ff;
+        --muted: #a8b2d6;
+        --primary: #7c3aed;
+        --secondary: #06b6d4;
+        --accent: #22c55e;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: radial-gradient(circle at top right, #1f2a58 0%, var(--bg) 45%);
+        color: var(--text);
+      }
+
+      .container {
+        width: min(1100px, 92vw);
+        margin: 0 auto;
+        padding: 2.2rem 0 3rem;
+      }
+
+      .hero {
+        display: grid;
+        gap: 1.3rem;
+        background: linear-gradient(145deg, #1d2a57, #141d3f);
+        border: 1px solid #304082;
+        border-radius: 18px;
+        padding: 2rem;
+      }
+
+      .tag {
+        display: inline-block;
+        width: fit-content;
+        font-size: 0.85rem;
+        border-radius: 999px;
+        padding: 0.3rem 0.8rem;
+        border: 1px solid #4f67c8;
+        color: #cad5ff;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.8rem, 2.8vw, 2.7rem);
+        line-height: 1.12;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+      }
+
+      .btn {
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 0.7rem 1rem;
+        border: 1px solid transparent;
+      }
+
+      .btn-primary {
+        background: linear-gradient(90deg, var(--primary), #5b21b6);
+        color: #fff;
+      }
+
+      .btn-secondary {
+        border-color: #4560bd;
+        color: #d4ddff;
+      }
+
+      .grid {
+        margin-top: 1.2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 0.9rem;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid #334486;
+        border-radius: 14px;
+        padding: 1rem;
+      }
+
+      .card h2 {
+        margin: 0 0 0.35rem;
+        font-size: 1.05rem;
+      }
+
+      .kpi {
+        margin-top: 1.2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+        gap: 0.8rem;
+      }
+
+      .kpi-item {
+        border-radius: 12px;
+        padding: 0.9rem;
+        border: 1px solid #334486;
+        background: var(--bg-soft);
+      }
+
+      .kpi-item strong {
+        display: block;
+        color: #fff;
+        font-size: 1.15rem;
+      }
+
+      .kpi-item span {
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      .ok { color: var(--accent); }
+      .warn { color: #facc15; }
+
+      footer {
+        margin-top: 1.6rem;
+        padding-top: 0.7rem;
+        border-top: 1px solid #2e3e7e;
+        color: #95a2d0;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <span class="tag">BolinhoMod • Scratch Mod</span>
+        <h1>Um front-end digno para o BolinhoMod.</h1>
+        <p>
+          Esta página substitui o layout de “posts genérico” e volta ao foco do projeto:
+          identidade do mod, links úteis e instruções rápidas para deploy no GitHub Pages.
+        </p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="https://github.com/BolinhoMod/BolinhoMod-www">Repositório no GitHub</a>
+          <a class="btn btn-secondary" href="https://github.com/BolinhoMod/BolinhoMod-www#readme">Guia de setup</a>
+        </div>
+      </section>
+
+      <section class="grid" aria-label="Recursos principais">
+        <article class="card">
+          <h2>🎮 Foco no mod</h2>
+          <p>Sem sistema de blog improvisado: o site agora comunica o objetivo real do BolinhoMod.</p>
+        </article>
+        <article class="card">
+          <h2>🧩 Base pronta</h2>
+          <p>Você pode evoluir para páginas de download, changelog e documentação sem quebrar o tema.</p>
+        </article>
+        <article class="card">
+          <h2>🚀 GitHub Pages</h2>
+          <p>Publicação direta com branch + root, sem exigir localhost para visualizar algo útil.</p>
+        </article>
+      </section>
+
+      <section class="kpi" aria-label="Status do projeto">
+        <div class="kpi-item">
+          <strong class="ok">Visual alinhado</strong>
+          <span>Layout limpo e centrado no BolinhoMod</span>
+        </div>
+        <div class="kpi-item">
+          <strong class="ok">Sem posts fake</strong>
+          <span>Removido sistema que desviava do propósito</span>
+        </div>
+        <div class="kpi-item">
+          <strong class="warn">Próximo passo</strong>
+          <span>Conectar com API real quando você quiser</span>
+        </div>
+      </section>
+
+      <footer>
+        BolinhoMod © 2026 • Feito para ser o portal do mod, não uma página genérica.
+      </footer>
+    </main>
+  </body>
+</html>

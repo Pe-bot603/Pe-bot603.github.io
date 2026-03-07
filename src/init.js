@@ -51,7 +51,7 @@ import jar from './lib/jar';
             'This is part of your browser intended for developers. ' +
             'If someone told you to copy-and-paste something here, ' +
             'don\'t do it! It could allow them to take over your ' +
-            'Scratch account, delete all of your projects, or do many ' +
+            'BolinhoMod account, delete all of your projects, or do many ' +
             'other harmful things. If you don\'t understand what exactly ' +
             'you are doing here, you should close this window without doing ' +
             'anything.'

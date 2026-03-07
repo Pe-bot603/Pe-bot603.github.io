@@ -1,7 +1,7 @@
 {
   "name": "www",
   "version": "1.0.0",
-  "description": "Standalone WWW client for Scratch",
+  "description": "Standalone WWW client for BolinhoMod",
   "scripts": {
     "start": "node ./dev-server/index.js",
     "test": "npm run test:lint && npm run build && npm run test:unit",

@@ -2,7 +2,7 @@
     "splash.featuredProjects": "Featured Projects",
     "splash.featuredStudios": "Featured Studios",
     "splash.projectsCuratedBy": "Projects Curated by {curatorId}",
-    "splash.scratchDesignStudioTitle": "Scratch Design Studio",
+    "splash.scratchDesignStudioTitle": "BolinhoMod Design Studio",
     "splash.visitTheStudio": "Visit the studio",
     "splash.projectsByScratchersFollowing": "Projects by Scratchers I'm Following",
     "splash.projectsLovedByScratchersFollowing": "Projects Loved by Scratchers I'm Following",
@@ -19,7 +19,7 @@
     "messages.remixText": "{profileLink} remixed {remixedProjectLink} as {projectLink}",
     "messages.shareText": "{profileLink} shared the project {projectLink}",
 
-    "intro.aboutScratch": "About Scratch",
+    "intro.aboutScratch": "About BolinhoMod",
     "intro.forEducators": "For Educators",
     "intro.forParents": "For Parents",
     "intro.join": "Join",
@@ -27,10 +27,10 @@
     "intro.tagLine1": "Create stories, games, and animations",
     "intro.tagLine2": "Share with others around the world",
     "intro.watchVideo": "Watch Video",
-    "news.scratchNews": "Scratch News",
+    "news.scratchNews": "BolinhoMod News",
 
-    "donatebanner.askSupport": "Scratch is a nonprofit that relies on donations to keep our platform free for all kids. Your gift of $5 will make a difference.",
-    "donatebanner.scratchWeek": "May 19-20 is Scratch’s 15th Anniversary! {celebrationLink}. Donate to support creative coding worldwide.",
+    "donatebanner.askSupport": "BolinhoMod is a nonprofit that relies on donations to keep our platform free for all kids. Your gift of $5 will make a difference.",
+    "donatebanner.scratchWeek": "May 19-20 is BolinhoMod’s 15th Anniversary! {celebrationLink}. Donate to support creative coding worldwide.",
     "donatebanner.learnMore": "Learn more",
 
     "teacherbanner.greeting": "Hi",
@@ -38,7 +38,7 @@
     "teacherbanner.classesButton": "My Classes",
 
     "hocbanner.title": "Get Creative with Coding!",
-    "hocbanner.titleTellStory": "Tell Your Story with Scratch!",
+    "hocbanner.titleTellStory": "Tell Your Story with BolinhoMod!",
     "hocbanner.moreActivities": "See more activities",
     "hocbanner.imagine": "Imagine a World",
     "hocbanner.codeACartoon": "Code a Cartoon",
@@ -49,7 +49,7 @@
     "hocbanner.createAStory": "Create a Story",
     "hocbanner.animateACharacter": "Animate a Character",
 
-    "welcome.welcomeToScratch": "Welcome to Scratch!",
+    "welcome.welcomeToScratch": "Welcome to BolinhoMod!",
     "welcome.explore": "Explore Starter Projects",
     "welcome.exploreAlt": "Starter Projects",
     "welcome.community": "Learn about the community",
@@ -60,7 +60,7 @@
     "activity.seeUpdates": "This is where you will see updates from Scratchers you follow",
     "activity.checkOutScratchers": "Check out some Scratchers you might like to follow",
 
-    "featurebanner.highContrast.comingSoon": "COMING SOON: Color Contrast in Scratch!",
+    "featurebanner.highContrast.comingSoon": "COMING SOON: Color Contrast in BolinhoMod!",
     "featurebanner.highContrast.forumTitle": "Block Color Settings and Site Updates",
     "featurebanner.highContrast.learnMore": "Learn More"
 }

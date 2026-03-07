@@ -1,5 +1,17 @@
-# scratch-www
-#### Standalone web client for Scratch
+# BolinhoMod-www
+#### Cliente web base para BolinhoMod
+
+## GitHub Pages (rápido)
+
+Se você quer publicar uma landing page estática no GitHub Pages:
+
+1. Faça `git push` do branch com as alterações.
+2. No GitHub, abra **Settings → Pages**.
+3. Em **Build and deployment**, selecione **Deploy from a branch**.
+4. Escolha o branch desejado e a pasta **/(root)**.
+5. Salve e aguarde a URL pública ser gerada.
+
+> Você pode abrir a URL pública do GitHub Pages sem usar localhost.
 
 [![Build Status](https://travis-ci.org/LLK/scratch-www.svg)](https://travis-ci.org/LLK/scratch-www)
 [![Coverage Status](https://coveralls.io/repos/github/LLK/scratch-www/badge.svg?branch=develop)](https://coveralls.io/github/LLK/scratch-www?branch=develop)
