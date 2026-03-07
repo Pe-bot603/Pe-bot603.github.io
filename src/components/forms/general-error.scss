@@ -1,9 +1,0 @@
-@use "../../colors";
-
-.general-error {
-    border: 1px solid colors.$active-gray;
-    border-radius: 4px;
-    background-color: colors.$ui-orange;
-    padding: 1rem;
-    color: colors.$type-white;
-}

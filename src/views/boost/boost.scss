@@ -1,9 +1,0 @@
-@use "../../colors";
-@use "../../frameless";
-
-.boost {
-    .extension-header {
-        background-color: colors.$ui-magenta-dark;
-        background-image: url("/images/boost/boost-pattern.svg");
-    }
-}
